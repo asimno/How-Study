@@ -63,6 +63,11 @@
     background-color:#312B30;
 }
 
+#SectionHeader:hover {
+    background-color:rgb(31, 26, 29);
+    cursor:pointer;
+}
+
 #SectionHeader {
     background-color:#241e23;
     font-size: 35px;
