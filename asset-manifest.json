@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/how-study/static/css/main.64423f78.css",
+    "main.js": "/how-study/static/js/main.e72ace35.js",
+    "static/js/453.357e6645.chunk.js": "/how-study/static/js/453.357e6645.chunk.js",
+    "index.html": "/how-study/index.html",
+    "main.64423f78.css.map": "/how-study/static/css/main.64423f78.css.map",
+    "main.e72ace35.js.map": "/how-study/static/js/main.e72ace35.js.map",
+    "453.357e6645.chunk.js.map": "/how-study/static/js/453.357e6645.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64423f78.css",
+    "static/js/main.e72ace35.js"
+  ]
+}

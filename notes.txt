@@ -1,0 +1,8 @@
+https://colorhunt.co/palette/fbd68563aebb7a5d7e312b30 scheme
+
+FCF9EA
+
+  <p id="NavbarText">I'll be honest, I struggle ALOT at studying. So here's some advice, techniques and potentially helpful resources I've gathered in my search of how to study.</p>
+        <p id="NavbarText">Keep in mind, different advice will work for different people at different times! Many of these may be of use to you, or none may be of use to you. I encourage you to check in every now and then whenever you're struggling to study and experiment with what works in the moment.</p>
+
+        https://knowt.com/home
