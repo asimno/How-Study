@@ -65,3 +65,9 @@ export function Educational(){
     <Tag name="Educational" hex="#A27B5C"/>
   )
 }
+
+export function LongTerm(){
+  return(
+    <Tag name="Long Term" hex="#3da89dff"/>
+  )
+}

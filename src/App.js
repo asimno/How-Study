@@ -3,7 +3,7 @@ import './App.css';
 import Section from './Components/section.js'
 import Card from './Components/card.js'
 
-import {Advice,General,Brutal,Educational,Motivational,Technique,TimeManagement,Mental,Resource} from './Components/tag.js'
+import {Advice,General,Brutal,Educational,Motivational,Technique,TimeManagement,Mental,Resource,LongTerm} from './Components/tag.js'
 
 function App() {
   return (
@@ -35,9 +35,15 @@ function App() {
                 links={<><p>Useful Pomodoro Website: https://pomofocus.io/</p></>}
               />
               <Card
-                header="'Do it for 5 minutes'"
+                header="Do it for 5 minutes"
                 tags={<><Technique/><Motivational/></>}
                 description="Sit down and do that thing you need to do for 5 minutes, then take a break. Easy, right? 9 times out of 10 you won't mind continuing for longer as 5 minutes is enough time to enter a 'focus state'. Combine this with the Pomodoro technique and ease into it with progessively longer focus periods."
+                links={<></>}
+              />
+              <Card
+                header="Study Space"
+                tags={<><Technique/><Mental/><LongTerm/></>}
+                description="Find a quiet, distraction-free and accessible place to call your 'study space', a place you ONLY go to when you work. This can be at home or outside like a library or a cafe, the point is over time you will associate this environment with being productive. This can help if you struggle to study in your room or anywhere noisy/distracting."
                 links={<></>}
               />
             </>
@@ -46,6 +52,15 @@ function App() {
         <Section header="Resources"
         content={
             <>
+              <Card
+                header="Google Calendar / Google Tasks"
+                tags={<><Resource/><TimeManagement/></>}
+                description="Free calendar, time-management and to-do list service to help you organize your day and keep track of what needs done and when. Ideal if you already have a Google account."
+                links={<>
+                  <p>Link to Google Calendar: https://calendar.google.com</p>
+                  <p>Link to Google Tasks: https://tasks.google.com</p>
+                </>}
+              />
               <Card
                 header="Knowt"
                 tags={<><Resource/><Educational/></>}
@@ -70,5 +85,6 @@ function App() {
 }
 
 //Bunch of cards, can be reused
+//https://calendar.google.com
 
 export default App;
